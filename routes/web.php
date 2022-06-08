@@ -3,6 +3,8 @@
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
+use App\Http\Controllers\AtomsController;
+use App\Http\Controllers\AtomCommentsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,6 +25,9 @@ Route::get('/', function () {
         'phpVersion' => PHP_VERSION,
     ]);
 });
+
+Route::resource('atoms', AtomsController::class);
+Route::resource('atoms.comments', AtomCommentsController::class);
 
 Route::middleware([
     'auth:sanctum',
