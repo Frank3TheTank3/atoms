@@ -15,15 +15,18 @@ return new class extends Migration
     {
         Schema::create('atoms', function (Blueprint $table) {
             $table->id();
+            $table->integer('order');
+            $table->string('name');
             $table->string('symbol');
             $table->float('mass');
-            $table->float('boiling_point');
-            $table->float('melting_point');
-            $table->integer('order');
+            $table->string('energy_levels');
+            $table->float('electronegativity')->nullable();
+            $table->float('boiling_point')->nullable();
+            $table->float('melting_point')->nullable();
             $table->integer('electrons');
-            $table->integer('protons');
-            $table->float('electronegativity');
-            $table->date('discovery_date');
+            $table->integer('neutrons');
+            $table->float('abundance');
+            $table->integer('discovered');
             $table->timestamps();
         });
     }
