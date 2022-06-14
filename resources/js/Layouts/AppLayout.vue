@@ -31,6 +31,11 @@ const switchToTeam = (team) => {
 const logout = () => {
     Inertia.post(route("logout"));
 };
+
+const showRegLog = () => {
+    return !route().current();
+}
+
 </script>
 
 <template>
@@ -43,7 +48,7 @@ const logout = () => {
             <div class="text-yellow">Atoms</div>
         </div>
 
-        <div class="absolute top-0 right-0 flex">
+        <div v-if="showRegLog()" class="absolute top-0 right-0 flex">
             <Link :href="route('register')" class="bg-orange-register rounded-lg w-24 m-2 p-1">
             Register
             </Link>
