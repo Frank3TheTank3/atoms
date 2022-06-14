@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-image-header {
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-gray-card {
+    background-color: #414141;
+}
+
+.bg-gray-main {
+    background-color: #828493;
+}
+
+.bg-green-submit {
+    background-color: #59e87d;
+}
+
+.bg-orange-register {
+    background-color: #ef7f05;
+}
+
+.bg-yellow {
+    background-color: #f2ff00;
+}
+
+.text-yellow {
+    color: #f2ff00;
+}
