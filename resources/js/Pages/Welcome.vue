@@ -1,6 +1,7 @@
 <script setup>
 import { Head, Link } from "@inertiajs/inertia-vue3";
 import AppLayout from "@/Layouts/AppLayout.vue";
+import RollingAtom from "@/components/RollingAtom.vue";
 
 defineProps({
     canLogin: Boolean,
@@ -24,6 +25,7 @@ defineProps({
         </template>
 
         <template #bottom>
+        <RollingAtom class=""></RollingAtom>
             <div class="flex flex-col items-center text-white pb-24">
                 <div class="grid grid-cols-2 w-4/5 gap-8 m-8">
                     <div class="bg-gray-card rounded-xl p-5">
