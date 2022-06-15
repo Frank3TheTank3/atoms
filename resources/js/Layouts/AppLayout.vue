@@ -8,7 +8,7 @@ import JetDropdown from "@/Jetstream/Dropdown.vue";
 import JetDropdownLink from "@/Jetstream/DropdownLink.vue";
 import JetNavLink from "@/Jetstream/NavLink.vue";
 import JetResponsiveNavLink from "@/Jetstream/ResponsiveNavLink.vue";
-import AppLogo from "@/components/icons/Logo.vue";
+import FullLogo from "@/components/FullLogo.vue";
 
 defineProps({
     title: String,
@@ -43,10 +43,7 @@ const showRegLog = () => {
 
         <Head :title="title" />
 
-        <div class="absolute top-0 left-0 flex items-center">
-            <AppLogo class="w-16 h-16"></AppLogo>
-            <div class="text-yellow">Atoms</div>
-        </div>
+        <FullLogo class="absolute top-0 left-0 m-1"></FullLogo>
 
         <div v-if="showRegLog()" class="absolute top-0 right-0 flex">
             <Link :href="route('register')" class="bg-orange-register rounded-lg w-24 m-2 p-1">
@@ -76,8 +73,7 @@ const showRegLog = () => {
                 w-full
             ">
             <div class="flex items-center">
-                <AppLogo class="w-16 h-16"></AppLogo>
-                <div class="text-yellow">Atoms</div>
+                <FullLogo class="m-1"></FullLogo>
             </div>
             <div class="flex text-yellow">
                 <div class="flex flex-col mx-3">
