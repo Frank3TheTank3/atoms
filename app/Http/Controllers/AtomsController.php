@@ -16,7 +16,8 @@ class AtomsController extends Controller
      */
     public function index()
     {
-        return Inertia::render('Atoms/Index', []);
+        $atoms = Atom::all();
+        return Inertia::render('Atoms/Index', [ "atoms" => $atoms]);
     }
 
     /**

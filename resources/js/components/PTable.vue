@@ -42,23 +42,19 @@
 <script setup>
 import PTableCell from '@/components/PTableCell.vue';
 
-let data = {};
-for (let i = 1; i < 119; i++) {
-    data[i] = {
-        id: i,
-        order: i,
-        symbol: "S",
-        name: "Name"
-    };
-}
-console.log(data);
+const props = defineProps({
+    atoms : Array
+});
 
+const data = {};
+props.atoms.forEach(element => { data[element.order] = element; });
 </script>
 
 <style>
 .ptable {
-    grid-template-columns: repeat(18, 56px);
-    width: calc(18 * 60px - 4px);
+    grid-template-columns: repeat(18, 76px);
+    width: calc(18 * 80px - 4px);
+    grid-template-rows: repeat(7, 76px) 48px repeat(2, 76px);
 }
 
 .start-4 {
