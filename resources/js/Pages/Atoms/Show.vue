@@ -8,8 +8,8 @@
                 </div>
             </div>
         </template>
-
         <template #bottom>
+            <MiniGame :atom="atom" :minigame="minigame"></MiniGame>
             <div class="flex flex-col items-center pb-24 gap-8 pt-8">
                 <div class="flex w-5/6 gap-5">
                     <AtomFacts :facts="facts" class="w-2/3"></AtomFacts>
@@ -39,11 +39,13 @@ import AtomComment from "@/components/AtomComment.vue";
 import AtomTile from "@/components/AtomTile.vue";
 import AtomInfo from "@/components/AtomInfo.vue";
 import CreateAtomComment from "@/components/CreateAtomComment.vue";
+import MiniGame from "@/components/MiniGame.vue";
 
 const atom = computed((get) => usePage().props.value.atom);
 const facts = computed((get) => usePage().props.value.facts);
 const images = computed((get) => usePage().props.value.images);
 const comments = computed((get) => usePage().props.value.comments);
+const minigame = computed(get => usePage().props.value.minigame);
 </script>
 
 <style>

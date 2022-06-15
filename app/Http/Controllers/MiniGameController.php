@@ -2,17 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Atom;
-use App\Models\AtomComment;
-use App\Models\AtomFact;
-use App\Models\AtomImage;
 use App\Models\MiniGame;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
 
-use Inertia\Inertia;
-
-class AtomsController extends Controller
+class MiniGameController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -21,8 +14,7 @@ class AtomsController extends Controller
      */
     public function index()
     {
-        $atoms = Atom::all();
-        return Inertia::render('Atoms/Index', [ "atoms" => $atoms]);
+        //
     }
 
     /**
@@ -49,31 +41,21 @@ class AtomsController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Atom  $atom
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Atom $atom)
+    public function show($id)
     {
-        $comments = AtomComment::all()->where("atom_id", $atom->id);
-        $facts = AtomFact::all()->where("atom_id", $atom->id);
-        $images = AtomImage::all()->where("atom_id", $atom->id);
-        $minigame = MiniGame::all()->where("user_id", optional(Auth::user())->id);
-        return Inertia::render('Atoms/Show', [
-            "atom" => $atom,
-            "comments" => $comments,
-            "facts" => $facts,
-            "images" => $images,
-            "minigame" => $minigame
-        ]);
+        //
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Atom  $atom
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(Atom $atom)
+    public function edit($id)
     {
         //
     }
@@ -82,21 +64,29 @@ class AtomsController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Atom  $atom
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Atom $atom)
+    public function update(Request $request)
     {
-        //
+
+        $this->validate($request, [
+            'user_id' => $request,
+            'score' => $request,
+        ]);
+        $minigameplay = new MiniGame();
+        $minigameplay->user_id = $request->input("user_id");
+        $minigameplay->score = $request->input("score");
+        $minigameplay->save();
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Atom  $atom
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Atom $atom)
+    public function destroy($id)
     {
         //
     }
