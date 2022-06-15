@@ -16,6 +16,10 @@ class DatabaseSeeder extends Seeder
     {
         $this->call([
             AtomSeeder::class,
+            AtomFactsSeeder::class,
+            AtomImagesSeeder::class,
+            UsersSeeder::class,
+            AtomCommentsSeeder::class
         ]);
     }
 }
