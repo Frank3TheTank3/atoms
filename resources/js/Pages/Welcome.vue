@@ -2,7 +2,7 @@
 import { Head, Link } from "@inertiajs/inertia-vue3";
 import AppLayout from "@/Layouts/AppLayout.vue";
 import RollingAtom from "@/components/RollingAtom.vue";
-// import ClipartBooks from "@/components/icons/ClipartBooks.vue";
+import ClipartBooks from "@/components/icons/ClipartBooks.vue";
 import ClipartCatapult from "@/components/icons/ClipartCatapult.vue";
 import ClipartRadioactive from "@/components/icons/ClipartRadioactive.vue";
 import ClipartAtomic from "@/components/icons/ClipartAtomic.vue";
@@ -41,7 +41,7 @@ defineProps({
             <div class="flex flex-col items-center text-white pb-24">
                 <div class="grid grid-cols-2 w-4/5 gap-8 m-8">
                     <div class="flex items-center gap-5 bg-gray-card rounded-xl p-5">
-                        <!-- <ClipartBooks></ClipartBooks> -->
+                        <ClipartBooks class="h-24 w-24"></ClipartBooks>
                         Read about the enviroments the Atoms are found in
                     </div>
                     <div class="flex items-center gap-5 bg-gray-card rounded-xl p-5">
