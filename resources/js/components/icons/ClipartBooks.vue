@@ -1,20 +1,6 @@
 <template>
-    <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    <svg version="1.1" id="books" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 344.8 356.1" style="enable-background:new 0 0 344.8 356.1;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#1F4A57;}
-	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#3D7385;}
-	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#8AA1A6;}
-	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#F5C745;}
-	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#F0522E;}
-	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#F7D475;}
-	.st6{fill-rule:evenodd;clip-rule:evenodd;fill:#3B9987;}
-	.st7{fill-rule:evenodd;clip-rule:evenodd;fill:#FFD463;}
-	.st8{fill-rule:evenodd;clip-rule:evenodd;fill:#ED5445;}
-	.st9{fill-rule:evenodd;clip-rule:evenodd;fill:#FFE396;}
-	.st10{fill-rule:evenodd;clip-rule:evenodd;fill:#FF8061;}
-	.st11{fill-rule:evenodd;clip-rule:evenodd;fill:#4AAD99;}
-</style>
 <g>
 	<path class="st0" d="M63.2,70.3v282.2c0,0.9,0.7,1.7,1.7,1.7h89.9c1,0,1.7-0.8,1.7-1.7V70.3c0-1-0.7-1.7-1.7-1.7H65
 		C64,68.6,63.2,69.3,63.2,70.3"/>

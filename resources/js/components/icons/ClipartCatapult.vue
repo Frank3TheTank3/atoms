@@ -2,7 +2,7 @@
     <svg>
 
 <g>
-	<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#333333" points="17.5,46.9 15.7,32.4 22.5,23.8 26.5,12.8 37.8,8.8 
+	<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#333333" points="17.5,46.9 15.7,32.4 22.5,23.8 26.5,12.8 37.8,8.8
 		48.8,0 62.3,1.5 67.7,1.4 87.9,7.4 95,8.8 101.4,23.8 101.3,42.1 	"/>
 	<path fill-rule="evenodd" clip-rule="evenodd" fill="#4F2D0A" d="M531.7,290.9L504,239.5c-38.3-71.1-97.9-125.2-167.6-157.2
 		c-69.7-32-149.6-41.9-228.5-24.7l-3.1-14.3c82.1-17.9,165.1-7.6,237.7,25.7c72.5,33.3,134.5,89.6,174.4,163.6l27.7,51.4
@@ -23,10 +23,10 @@
 		c0-29.3-23.9-53.3-53.3-53.3c-29.3,0-53.3,23.9-53.3,53.3C122.5,233.4,146.4,257.4,175.8,257.4z"/>
 	<path fill-rule="evenodd" clip-rule="evenodd" fill="#AD9E90" d="M175.8,226.1c12.1,0,22-9.9,22-22c0-12.1-9.9-22-22-22
 		c-12.1,0-22,9.9-22,22C153.7,216.2,163.6,226.1,175.8,226.1z"/>
-	
+
 		<rect x="394.5" y="58" transform="matrix(0.7636 -0.6457 0.6457 0.7636 -24.3865 308.4639)" fill-rule="evenodd" clip-rule="evenodd" fill="#996633" width="29.1" height="259.1"/>
 	<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#855627" points="355.5,101.7 344.6,133.8 338.5,126.6 338.5,81.6 	"/>
-	
+
 		<rect x="94.3" y="173" transform="matrix(0.6457 -0.7636 0.7636 0.6457 -63.8993 237.3439)" fill-rule="evenodd" clip-rule="evenodd" fill="#996633" width="259.1" height="29.1"/>
 	<rect x="122.5" y="298.9" fill-rule="evenodd" clip-rule="evenodd" fill="#4F2D0A" width="387.9" height="26.9"/>
 	<rect x="85.3" y="274" fill-rule="evenodd" clip-rule="evenodd" fill="#734415" width="462.2" height="26.9"/>
@@ -62,13 +62,13 @@
 		L116.1,31.9z"/>
 	<path fill-rule="evenodd" clip-rule="evenodd" fill="#4F2D0A" d="M116.1,31.9c1.7,8.7,1.2,17.3-1,25.2c-15.1-6.6-31.9-8.4-48.3-5.1
 		c-18.2,3.7-34.4,13.6-46.1,27.7C14.2,72.6,9.4,63.5,7.4,53.1L116.1,31.9z"/>
-	
+
 		<rect x="0.2" y="35.4" transform="matrix(0.9816 -0.1909 0.1909 0.9816 -6.9802 12.5697)" fill-rule="evenodd" clip-rule="evenodd" fill="#996633" width="123" height="14.2"/>
 	<path fill-rule="evenodd" clip-rule="evenodd" fill="#D4C8BD" d="M175.8,133.8L175.8,133.8c2.5,0,4.5,2,4.5,4.5V206
 		c0,2.5-2,4.5-4.5,4.5l0,0c-2.5,0-4.5-2-4.5-4.5v-67.7C171.3,135.8,173.3,133.8,175.8,133.8z"/>
 	<path fill-rule="evenodd" clip-rule="evenodd" fill="#1A1A1A" d="M175.8,148.6c5.5,0,10-4.5,10-10c0-5.5-4.5-10-10-10
 		c-5.5,0-10,4.5-10,10C165.8,144.1,170.3,148.6,175.8,148.6z"/>
-	<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#1A1A1A" points="67.7,1.4 63.5,11.8 52.5,15.9 51.5,23.8 43.6,28.9 
+	<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#1A1A1A" points="67.7,1.4 63.5,11.8 52.5,15.9 51.5,23.8 43.6,28.9
 		41.3,25.1 33.9,36.4 46.1,35.8 49.3,37.7 66.2,34.4 69.9,21.4 79.3,21.3 85.1,30.7 101.3,27.6 101.4,23.8 95,8.8 87.9,7.4 	"/>
 </g>
 </svg>
