@@ -1,6 +1,6 @@
 <template>
     <div id="myContainer" class="h-3 w-full relative bg-black">
-        <div class="rotateR w-12 h-12 absolute bottom-1" id="myAnim">
+        <div class="rotateR w-12 h-12 absolute bottom-3" id="myAnim">
             <ClipartAtomic></ClipartAtomic>
         </div>
     </div>
