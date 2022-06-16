@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Models\Atom;
+use App\Models\AtomComment;
+use App\Models\AtomFact;
+use App\Models\AtomImage;
 use Illuminate\Http\Request;
 
 use Inertia\Inertia;
@@ -49,7 +52,15 @@ class AtomsController extends Controller
      */
     public function show(Atom $atom)
     {
-        return Inertia::render('Atoms/Show', []);
+        $comments = AtomComment::all()->where("atom_id", $atom->id);
+        $facts = AtomFact::all()->where("atom_id", $atom->id);
+        $images = AtomImage::all()->where("atom_id", $atom->id);
+        return Inertia::render('Atoms/Show', [
+            "atom" => $atom,
+            "comments" => $comments,
+            "facts" => $facts,
+            "images" => $images
+        ]);
     }
 
     /**
