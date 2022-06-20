@@ -1,16 +1,16 @@
 <template>
-    <AppLayout title="Welcome">
+    <MainLayout title="Atoms">
         <template #top>
             <div class="flex items-center justify-center h-screen">
                 <PTable :atoms="atoms"></PTable>
             </div>
         </template>
-    </AppLayout>
+    </MainLayout>
 </template>
 
 <script setup>
 import { Head, Link, usePage } from "@inertiajs/inertia-vue3";
-import AppLayout from "@/Layouts/AppLayout.vue";
+import MainLayout from "@/Layouts/MainLayout.vue";
 import PTable from "@/components/PTable.vue";
 import { computed } from "vue";
 

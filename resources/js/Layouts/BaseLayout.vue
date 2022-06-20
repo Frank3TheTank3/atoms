@@ -125,12 +125,7 @@ const loggedIn = () => {
 
         <!-- Page Content -->
         <main class="w-full">
-            <div class="bg-image-header min-h-screen">
-                <slot name="top" />
-            </div>
-            <div class="bg-gray-main">
-                <slot name="bottom" />
-            </div>
+            <slot name="main" />
         </main>
 
         <footer

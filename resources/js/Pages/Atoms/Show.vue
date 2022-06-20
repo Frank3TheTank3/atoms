@@ -1,5 +1,5 @@
 <template>
-    <AppLayout :title="atom.name">
+    <MainLayout :title="atom.name">
         <template #top>
             <div class="relative top-72 left-24 w-72 flex">
                 <AtomTile :atom="atom" class="w-36 h-36"></AtomTile>
@@ -17,13 +17,13 @@
                 <CreateAtomComment :atom="atom" class="w-5/6 h-48 p-5"></CreateAtomComment>
             </div>
         </template>
-    </AppLayout>
+    </MainLayout>
 </template>
 
 <script setup>
 import { Head, Link, usePage } from "@inertiajs/inertia-vue3";
 import { computed } from "vue";
-import AppLayout from "@/Layouts/AppLayout.vue";
+import MainLayout from "@/Layouts/MainLayout.vue";
 import AtomFacts from "@/components/AtomFacts.vue";
 import AtomImages from "@/components/AtomImages.vue";
 import AtomComment from "@/components/AtomComment.vue";

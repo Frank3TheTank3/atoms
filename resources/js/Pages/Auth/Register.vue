@@ -8,7 +8,7 @@ import JetCheckbox from "@/Jetstream/Checkbox.vue";
 import JetLabel from "@/Jetstream/Label.vue";
 import JetValidationErrors from "@/Jetstream/ValidationErrors.vue";
 import AppLayoutVue from "../../../../vendor/laravel/jetstream/stubs/inertia/resources/js/Layouts/AppLayout.vue";
-import AppLayout from "@/Layouts/AppLayout.vue";
+import MainLayout from "@/Layouts/MainLayout.vue";
 
 const form = useForm({
     name: "",
@@ -28,7 +28,7 @@ const submit = () => {
 <template>
     <Head title="Register" />
 
-    <AppLayout>
+    <MainLayout>
         <template #top>
             <JetAuthenticationCard>
                 <template #logo>
@@ -167,5 +167,5 @@ const submit = () => {
                 </form>
             </JetAuthenticationCard>
         </template>
-    </AppLayout>
+    </MainLayout>
 </template>

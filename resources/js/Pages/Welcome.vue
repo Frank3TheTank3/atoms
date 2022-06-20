@@ -1,6 +1,6 @@
 <script setup>
 import { Head, Link } from "@inertiajs/inertia-vue3";
-import AppLayout from "@/Layouts/AppLayout.vue";
+import MainLayout from "@/Layouts/MainLayout.vue";
 import RollingAtom from "@/components/RollingAtom.vue";
 import ClipartBooks from "@/components/icons/ClipartBooks.vue";
 import ClipartCatapult from "@/components/icons/ClipartCatapult.vue";
@@ -18,7 +18,7 @@ defineProps({
 </script>
 
 <template>
-    <AppLayout title="Welcome">
+    <MainLayout title="Welcome">
         <template #top>
                 <div class="flex justify-start items-center p-24 h-screen">
                     <div class="flex flex-col items-center">
@@ -72,7 +72,7 @@ defineProps({
                 </div>
             </div>
         </template>
-    </AppLayout>
+    </MainLayout>
 </template>
 
 <style scoped>
