@@ -54,7 +54,10 @@ class AtomsController extends Controller
      */
     public function show(Atom $atom)
     {
-        $comments = AtomComment::all()->where("atom_id", $atom->id);
+        $comments = AtomComment::select('atom_comments.*', "users.name")
+            ->where("atom_id", $atom->id)
+            ->join("users", 'users.id', '=', 'atom_comments.user_id')
+            ->get();
         $facts = AtomFact::all()->where("atom_id", $atom->id);
         $images = AtomImage::all()->where("atom_id", $atom->id);
         $minigame = MiniGame::all()->where("user_id", optional(Auth::user())->id);

@@ -22,7 +22,7 @@
                 ></AtomComment>
                 <CreateAtomComment
                     :atom="atom"
-                    class="w-5/6 h-48 p-5"
+                    class="w-5/6 p-5"
                 ></CreateAtomComment>
             </div>
         </template>
