@@ -1,9 +1,11 @@
 <template>
     <MainLayout :title="atom.name">
         <template #top>
-            <div class="relative top-72 left-24 w-72 flex">
-                <AtomTile :atom="atom" class="w-36 h-36"></AtomTile>
-                <AtomInfo :atom="atom" class="w-36 h-36"></AtomInfo>
+            <div class="flex items-center justify-start h-screen ml-72">
+                <div class="flex gap-8">
+                    <AtomTile :atom="atom" class="w-64 h-64"></AtomTile>
+                    <AtomInfo :atom="atom" class="w-64 h-64"></AtomInfo>
+                </div>
             </div>
         </template>
 
@@ -13,8 +15,15 @@
                     <AtomFacts :facts="facts" class="w-2/3"></AtomFacts>
                     <AtomImages :images="images" class="w-1/3"></AtomImages>
                 </div>
-                <AtomComment v-for="comment in comments" :key="comment" :comment="comment"></AtomComment>
-                <CreateAtomComment :atom="atom" class="w-5/6 h-48 p-5"></CreateAtomComment>
+                <AtomComment
+                    v-for="comment in comments"
+                    :key="comment"
+                    :comment="comment"
+                ></AtomComment>
+                <CreateAtomComment
+                    :atom="atom"
+                    class="w-5/6 h-48 p-5"
+                ></CreateAtomComment>
             </div>
         </template>
     </MainLayout>
@@ -31,10 +40,10 @@ import AtomTile from "@/components/AtomTile.vue";
 import AtomInfo from "@/components/AtomInfo.vue";
 import CreateAtomComment from "@/components/CreateAtomComment.vue";
 
-const atom = computed(get => usePage().props.value.atom);
-const facts = computed(get => usePage().props.value.facts);
-const images = computed(get => usePage().props.value.images);
-const comments = computed(get => usePage().props.value.comments);
+const atom = computed((get) => usePage().props.value.atom);
+const facts = computed((get) => usePage().props.value.facts);
+const images = computed((get) => usePage().props.value.images);
+const comments = computed((get) => usePage().props.value.comments);
 </script>
 
 <style>
