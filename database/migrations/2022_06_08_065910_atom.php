@@ -27,6 +27,18 @@ return new class extends Migration
             $table->integer('neutrons');
             $table->float('abundance');
             $table->integer('discovered');
+            $table->enum('series',
+                [
+                    'alkali_metals',
+                    'alkaline_earth_metals',
+                    'lanthanoids',
+                    'actinoids',
+                    'transition_metals',
+                    'post-transition_metals',
+                    'metalloids',
+                    'reactive_nonmetals',
+                    'noble_gasses'
+                ])->nullable();
             $table->timestamps();
         });
     }

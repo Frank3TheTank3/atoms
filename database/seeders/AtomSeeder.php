@@ -27,6 +27,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0.75,
+            'series' => 'reactive_nonmetals',
             'discovered' => 1766
         ]);
 
@@ -42,6 +43,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0.23,
+            'series' => 'noble_gasses',
             'discovered' => 1895
         ]);
 
@@ -59,6 +61,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 6e-9,
+            'series' => 'alkali_metals',
             'discovered' => 1817
         ]);
 
@@ -74,6 +77,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 1e-9,
+            'series' => 'alkaline_earth_metals',
             'discovered' => 1797
         ]);
 
@@ -89,6 +93,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 1e-9,
+            'series' => 'metalloids',
             'discovered' => 1808
         ]);
 
@@ -104,6 +109,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0.005,
+            'series' => 'reactive_nonmetals',
             'discovered' => -3750
         ]);
 
@@ -119,6 +125,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0.001,
+            'series' => 'reactive_nonmetals',
             'discovered' => 1772
         ]);
 
@@ -134,6 +141,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0.01,
+            'series' => 'reactive_nonmetals',
             'discovered' => 1774
         ]);
 
@@ -149,6 +157,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0.0000004,
+            'series' => 'reactive_nonmetals',
             'discovered' => 1886
         ]);
 
@@ -164,6 +173,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0.0013,
+            'series' => 'noble_gasses',
             'discovered' => 1898
         ]);
 
@@ -181,6 +191,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0.00002,
+            'series' => 'alkali_metals',
             'discovered' => 1807
         ]);
 
@@ -196,6 +207,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0.0006,
+            'series' => 'alkaline_earth_metals',
             'discovered' => 1755
         ]);
 
@@ -211,6 +223,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0.00005,
+            'series' => 'post-transition_metals',
             'discovered' => 1825
         ]);
 
@@ -226,6 +239,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0.0007,
+            'series' => 'metalloids',
             'discovered' => 1824
         ]);
 
@@ -241,6 +255,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0.000007,
+            'series' => 'reactive_nonmetals',
             'discovered' => 1669
         ]);
 
@@ -256,6 +271,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0.0005,
+            'series' => 'reactive_nonmetals',
             'discovered' => -500
         ]);
 
@@ -271,6 +287,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0.000001,
+            'series' => 'reactive_nonmetals',
             'discovered' => 1774
         ]);
 
@@ -286,6 +303,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0.0002,
+            'series' => 'noble_gasses',
             'discovered' => 1894
         ]);
 
@@ -303,6 +321,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0.0003,
+            'series' => 'alkali_metals',
             'discovered' => 1807
         ]);
 
@@ -318,6 +337,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0.00007,
+            'series' => 'alkaline_earth_metals',
             'discovered' => 1808
         ]);
 
@@ -333,6 +353,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 3e-8,
+            'series' => 'transition_metals',
             'discovered' => 1879
         ]);
 
@@ -348,6 +369,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0.000003,
+            'series' => 'transition_metals',
             'discovered' => 1791
         ]);
 
@@ -363,6 +385,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0.000001,
+            'series' => 'transition_metals',
             'discovered' => 1801
         ]);
 
@@ -378,6 +401,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0.000015,
+            'series' => 'transition_metals',
             'discovered' => 1797
         ]);
 
@@ -393,6 +417,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0.000008,
+            'series' => 'transition_metals',
             'discovered' => 1774
         ]);
 
@@ -408,6 +433,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0.0011,
+            'series' => 'transition_metals',
             'discovered' => -2000
         ]);
 
@@ -423,6 +449,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0.000003,
+            'series' => 'transition_metals',
             'discovered' => 1735
         ]);
 
@@ -438,6 +465,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0.00006,
+            'series' => 'transition_metals',
             'discovered' => 1751
         ]);
 
@@ -453,6 +481,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 6e-8,
+            'series' => 'transition_metals',
             'discovered' => -8000
         ]);
 
@@ -468,6 +497,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0.0000003,
+            'series' => 'transition_metals',
             'discovered' => 1500
         ]);
 
@@ -483,6 +513,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 1e-8,
+            'series' => 'post-transition_metals',
             'discovered' => 1875
         ]);
 
@@ -498,6 +529,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0.0000002,
+            'series' => 'metalloids',
             'discovered' => 1886
         ]);
 
@@ -513,6 +545,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 8e-9,
+            'series' => 'metalloids',
             'discovered' => 1250
         ]);
 
@@ -528,6 +561,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 3e-8,
+            'series' => 'reactive_nonmetals',
             'discovered' => 1817
         ]);
 
@@ -543,6 +577,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 7e-9,
+            'series' => 'reactive_nonmetals',
             'discovered' => 1826
         ]);
 
@@ -558,6 +593,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 4e-8,
+            'series' => 'noble_gasses',
             'discovered' => 1898
         ]);
 
@@ -575,6 +611,8 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 1e-8,
+            'series' => 'noble_gasses',
+            'series' => 'alkali_metals',
             'discovered' => 1861
         ]);
 
@@ -590,6 +628,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 4e-8,
+            'series' => 'alkaline_earth_metals',
             'discovered' => 1790
         ]);
 
@@ -605,6 +644,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 7e-9,
+            'series' => 'transition_metals',
             'discovered' => 1794
         ]);
 
@@ -620,6 +660,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 5e-8,
+            'series' => 'transition_metals',
             'discovered' => 1789
         ]);
 
@@ -635,6 +676,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 2e-9,
+            'series' => 'transition_metals',
             'discovered' => 1801
         ]);
 
@@ -650,6 +692,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 5e-9,
+            'series' => 'transition_metals',
             'discovered' => 1781
         ]);
 
@@ -665,6 +708,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0,
+            'series' => 'transition_metals',
             'discovered' => 1937
         ]);
 
@@ -680,6 +724,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 4e-9,
+            'series' => 'transition_metals',
             'discovered' => 1844
         ]);
 
@@ -695,6 +740,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 6e-10,
+            'series' => 'transition_metals',
             'discovered' => 1803
         ]);
 
@@ -710,6 +756,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 2e-9,
+            'series' => 'transition_metals',
             'discovered' => 1803
         ]);
 
@@ -725,6 +772,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 6e-10,
+            'series' => 'transition_metals',
             'discovered' => -3000
         ]);
 
@@ -740,6 +788,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 2e-9,
+            'series' => 'transition_metals',
             'discovered' => 1817
         ]);
 
@@ -755,6 +804,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 3e-10,
+            'series' => 'post-transition_metals',
             'discovered' => 1863
         ]);
 
@@ -770,6 +820,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 4e-9,
+            'series' => 'post-transition_metals',
             'discovered' => -3000
         ]);
 
@@ -785,6 +836,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 4e-10,
+            'series' => 'metalloids',
             'discovered' => -3000
         ]);
 
@@ -800,6 +852,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 9e-9,
+            'series' => 'metalloids',
             'discovered' => 1783
         ]);
 
@@ -815,6 +868,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 1e-9,
+            'series' => 'reactive_nonmetals',
             'discovered' => 1811
         ]);
 
@@ -830,6 +884,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 1e-8,
+            'series' => 'noble_gasses',
             'discovered' => 1898
         ]);
 
@@ -847,6 +902,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 8e-10,
+            'series' => 'alkali_metals',
             'discovered' => 1860
         ]);
 
@@ -862,6 +918,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 1e-8,
+            'series' => 'alkaline_earth_metals',
             'discovered' => 1808
         ]);
 
@@ -877,6 +934,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 2e-9,
+            'series' => 'lanthanoids',
             'discovered' => 1839
         ]);
 
@@ -892,6 +950,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 1e-8,
+            'series' => 'lanthanoids',
             'discovered' => 1803
         ]);
 
@@ -907,6 +966,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 2e-9,
+            'series' => 'lanthanoids',
             'discovered' => 1885
         ]);
 
@@ -922,6 +982,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 1e-8,
+            'series' => 'lanthanoids',
             'discovered' => 1885
         ]);
 
@@ -937,6 +998,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0,
+            'series' => 'lanthanoids',
             'discovered' => 1945
         ]);
 
@@ -952,6 +1014,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 5e-9,
+            'series' => 'lanthanoids',
             'discovered' => 1879
         ]);
 
@@ -967,6 +1030,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 5e-10,
+            'series' => 'lanthanoids',
             'discovered' => 1901
         ]);
 
@@ -982,6 +1046,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 2e-9,
+            'series' => 'lanthanoids',
             'discovered' => 1880
         ]);
 
@@ -997,6 +1062,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 5e-10,
+            'series' => 'lanthanoids',
             'discovered' => 1843
         ]);
 
@@ -1012,6 +1078,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 2e-9,
+            'series' => 'lanthanoids',
             'discovered' => 1886
         ]);
 
@@ -1027,6 +1094,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 5e-10,
+            'series' => 'lanthanoids',
             'discovered' => 1878
         ]);
 
@@ -1042,6 +1110,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 2e-9,
+            'series' => 'lanthanoids',
             'discovered' => 1842
         ]);
 
@@ -1057,6 +1126,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 1e-10,
+            'series' => 'lanthanoids',
             'discovered' => 1879
         ]);
 
@@ -1072,6 +1142,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 2e-9,
+            'series' => 'lanthanoids',
             'discovered' => 1878
         ]);
 
@@ -1087,6 +1158,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 1e-10,
+            'series' => 'lanthanoids',
             'discovered' => 1907
         ]);
 
@@ -1102,6 +1174,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 7e-9,
+            'series' => 'transition_metals',
             'discovered' => 1923
         ]);
 
@@ -1117,6 +1190,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 8e-11,
+            'series' => 'transition_metals',
             'discovered' => 1802
         ]);
 
@@ -1132,6 +1206,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 5e-10,
+            'series' => 'transition_metals',
             'discovered' => 1783
         ]);
 
@@ -1147,6 +1222,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 2e-10,
+            'series' => 'transition_metals',
             'discovered' => 1925
         ]);
 
@@ -1162,6 +1238,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 3e-9,
+            'series' => 'transition_metals',
             'discovered' => 1803
         ]);
 
@@ -1177,6 +1254,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 2e-9,
+            'series' => 'transition_metals',
             'discovered' => 1803
         ]);
 
@@ -1192,6 +1270,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 5e-9,
+            'series' => 'transition_metals',
             'discovered' => 1735
         ]);
 
@@ -1207,6 +1286,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 6e-10,
+            'series' => 'transition_metals',
             'discovered' => -2500
         ]);
 
@@ -1222,6 +1302,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 1e-9,
+            'series' => 'transition_metals',
             'discovered' => -1500
         ]);
 
@@ -1237,6 +1318,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 5e-10,
+            'series' => 'post-transition_metals',
             'discovered' => 1861
         ]);
 
@@ -1252,6 +1334,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 1e-8,
+            'series' => 'post-transition_metals',
             'discovered' => -4000
         ]);
 
@@ -1267,6 +1350,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 7e-10,
+            'series' => 'post-transition_metals',
             'discovered' => 1400
         ]);
 
@@ -1282,6 +1366,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0,
+            'series' => 'post-transition_metals',
             'discovered' => 1898
         ]);
 
@@ -1297,6 +1382,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0,
+            'series' => 'metalloids',
             'discovered' => 1940
         ]);
 
@@ -1312,6 +1398,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0,
+            'series' => 'noble_gasses',
             'discovered' => 1900
         ]);
 
@@ -1329,6 +1416,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0,
+            'series' => 'alkali_metals',
             'discovered' => 1939
         ]);
 
@@ -1344,6 +1432,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0,
+            'series' => 'alkaline_earth_metals',
             'discovered' => 1898
         ]);
 
@@ -1359,6 +1448,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0,
+            'series' => 'actinoids',
             'discovered' => 1899
         ]);
 
@@ -1374,6 +1464,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 4e-10,
+            'series' => 'actinoids',
             'discovered' => 1829
         ]);
 
@@ -1389,6 +1480,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0,
+            'series' => 'actinoids',
             'discovered' => 1913
         ]);
 
@@ -1404,6 +1496,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 2e-10,
+            'series' => 'actinoids',
             'discovered' => 1789
         ]);
 
@@ -1419,6 +1512,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0,
+            'series' => 'actinoids',
             'discovered' => 1940
         ]);
 
@@ -1434,6 +1528,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0,
+            'series' => 'actinoids',
             'discovered' => 1940
         ]);
 
@@ -1449,6 +1544,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0,
+            'series' => 'actinoids',
             'discovered' => 1944
         ]);
 
@@ -1464,6 +1560,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0,
+            'series' => 'actinoids',
             'discovered' => 1944
         ]);
 
@@ -1479,6 +1576,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0,
+            'series' => 'actinoids',
             'discovered' => 1949
         ]);
 
@@ -1494,6 +1592,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0,
+            'series' => 'actinoids',
             'discovered' => 1950
         ]);
 
@@ -1509,6 +1608,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0,
+            'series' => 'actinoids',
             'discovered' => 1952
         ]);
 
@@ -1524,6 +1624,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0,
+            'series' => 'actinoids',
             'discovered' => 1952
         ]);
 
@@ -1539,6 +1640,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0,
+            'series' => 'actinoids',
             'discovered' => 1955
         ]);
 
@@ -1554,6 +1656,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0,
+            'series' => 'actinoids',
             'discovered' => 1958
         ]);
 
@@ -1569,6 +1672,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0,
+            'series' => 'actinoids',
             'discovered' => 1961
         ]);
 
@@ -1584,6 +1688,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0,
+            'series' => 'transition_metals',
             'discovered' => 1964
         ]);
 
@@ -1599,6 +1704,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0,
+            'series' => 'transition_metals',
             'discovered' => 1967
         ]);
 
@@ -1614,6 +1720,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0,
+            'series' => 'transition_metals',
             'discovered' => 1974
         ]);
 
@@ -1629,6 +1736,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0,
+            'series' => 'transition_metals',
             'discovered' => 1981
         ]);
 
@@ -1644,6 +1752,7 @@ class AtomSeeder extends Seeder
             'electrons' => -1,
             'neutrons' => -1,
             'abundance' => 0,
+            'series' => 'transition_metals',
             'discovered' => 1984
         ]);
 
