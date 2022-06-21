@@ -9,8 +9,8 @@
             </div>
         </template>
         <template #bottom>
-            <MiniGame :atom="atom" :minigame="minigame"></MiniGame>
             <div class="flex flex-col items-center pb-24 gap-8 pt-8">
+                <MiniGame :atom="atom" :minigame="minigame"></MiniGame>
                 <div class="flex w-5/6 gap-5">
                     <AtomFacts :facts="facts" class="w-2/3"></AtomFacts>
                     <AtomImages :images="images" class="w-1/3"></AtomImages>
@@ -45,7 +45,7 @@ const atom = computed((get) => usePage().props.value.atom);
 const facts = computed((get) => usePage().props.value.facts);
 const images = computed((get) => usePage().props.value.images);
 const comments = computed((get) => usePage().props.value.comments);
-const minigame = computed(get => usePage().props.value.minigame);
+const minigame = computed((get) => usePage().props.value.minigame);
 </script>
 
 <style>
