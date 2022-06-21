@@ -23,39 +23,32 @@ const myAnim = ref(null);
 let id = null;
 
 function myMove() {
-
     let movingLeft = true;
     let pos = 0;
     clearInterval(id);
     id = setInterval(frame, 2);
 
     function frame() {
-        let cont = myContainer.value;
-        let width;
-        if ((cont = !null)) {
-            width = cont.clientWidth - 50;
-        }
-        let elem = myAnim;
+        let width = myContainer.value.clientWidth - 50;
 
         if (movingLeft) {
             pos++;
         }
-
         if (!movingLeft) {
             pos--;
         }
-        if(elem.value != null)
-        {
-        elem.value.style.left = pos + "px";
-}
-        if (pos >= width && movingLeft) {
-            movingLeft = false;
-            elem.classList.replace("rotateR", "rotateL");
+
+        if (myAnim.value != null) {
+            myAnim.value.style.left = pos + "px";
         }
 
+        if (pos >= width && movingLeft) {
+            movingLeft = false;
+            myAnim.value.classList.replace("rotateR", "rotateL");
+        }
         if (pos <= 0 && movingLeft == false) {
             movingLeft = true;
-            elem.classList.replace("rotateL", "rotateR");
+            myAnim.value.classList.replace("rotateL", "rotateR");
         }
     }
 }
