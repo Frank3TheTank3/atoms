@@ -3,7 +3,12 @@
 namespace App\Http\Controllers;
 
 use App\Models\Atom;
+use App\Models\AtomComment;
+use App\Models\AtomFact;
+use App\Models\AtomImage;
+use App\Models\MiniGame;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 use Inertia\Inertia;
 
@@ -16,7 +21,8 @@ class AtomsController extends Controller
      */
     public function index()
     {
-        return Inertia::render('Atoms/Index', []);
+        $atoms = Atom::all();
+        return Inertia::render('Atoms/Index', [ "atoms" => $atoms]);
     }
 
     /**
@@ -48,7 +54,20 @@ class AtomsController extends Controller
      */
     public function show(Atom $atom)
     {
-        return Inertia::render('Atoms/Show', []);
+        $comments = AtomComment::select('atom_comments.*', "users.name")
+            ->where("atom_id", $atom->id)
+            ->join("users", 'users.id', '=', 'atom_comments.user_id')
+            ->get();
+        $facts = AtomFact::all()->where("atom_id", $atom->id);
+        $images = AtomImage::all()->where("atom_id", $atom->id);
+        $minigame = MiniGame::all()->where("user_id", optional(Auth::user())->id);
+        return Inertia::render('Atoms/Show', [
+            "atom" => $atom,
+            "comments" => $comments,
+            "facts" => $facts,
+            "images" => $images,
+            "minigame" => $minigame
+        ]);
     }
 
     /**

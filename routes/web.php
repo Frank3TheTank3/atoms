@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 use App\Http\Controllers\AtomsController;
 use App\Http\Controllers\AtomCommentsController;
+use App\Http\Controllers\MiniGameController;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,13 +29,4 @@ Route::get('/', function () {
 
 Route::resource('atoms', AtomsController::class);
 Route::resource('atoms.comments', AtomCommentsController::class);
-
-Route::middleware([
-    'auth:sanctum',
-    config('jetstream.auth_session'),
-    'verified',
-])->group(function () {
-    Route::get('/dashboard', function () {
-        return Inertia::render('Dashboard');
-    })->name('dashboard');
-});
+Route::resource('atoms.minigame', MiniGameController::class);

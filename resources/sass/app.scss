@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-image-header {
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-gray-card {
+    background-color: #414141;
+}
+
+.bg-gray-main {
+    background-color: #828493;
+}
+
+.bg-gray-comment {
+    background-color: #b1b2b5;
+}
+
+.bg-green-submit {
+    background-color: #59e87d;
+}
+
+.bg-orange-register {
+    background-color: #ef7f05;
+}
+
+.bg-yellow {
+    background-color: #f2ff00;
+}
+
+.text-yellow {
+    color: #f2ff00;
+}
+
+.bg-atom-alkali {
+    background-color: #abce43;
+}
+
+.bg-atom-alkali-earth {
+    background-color: #7b562e;
+}
+
+.bg-atom-lanthanoids {
+    background-color: #c59d39;
+}
+
+.bg-atom-actinoids {
+    background-color: #39c584;
+}
+
+.bg-atom-transition {
+    background-color: #a96fa2;
+}
+
+.bg-atom-post-transition {
+    background-color: #949ad3;
+}
+
+.bg-atom-metalloids {
+    background-color: #737586;
+}
+
+.bg-atom-reactive-non {
+    background-color: #5f9d26;
+}
+
+.bg-atom-noble {
+    background-color: #4294e5;
+}
+
+.bg-atom-undef {
+    background-color: #b0b0b0;
+
+}
